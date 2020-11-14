@@ -1,0 +1,97 @@
+h1{
+    color:green;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    color:#46484c;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    color:#46484c;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.estrella{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+form{
+    padding: 10px;
+padding-left: 500px;
+}
+button{
+    color:black;
+    background-color: green;
+    border-radius: 30px;
+    border-width: 5px;
+}
+.header {
+	margin: 0px;
+    font-size:0;
+    bottom: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: left;
+    padding: 8px 70px;
+    text-decoration: none;
+    }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    }
+  
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+}
+.logo {
+    width: 55%;	
+    bottom: auto;
+}
+.navbar {
+	width: 70%;
+}
+.actions {
+    display: inline-block;
+    margin: 30px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 0px;
+}
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.publish{
+    flex:1;
+}
+
+
+
