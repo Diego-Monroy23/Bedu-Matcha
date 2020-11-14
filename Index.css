@@ -1,8 +1,9 @@
 h1{
-    color:green;
-    font-weight: 800;
+    color:#025157;
+    font-weight: 100;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 70px;
 }
 h4{
     color:#46484c;
@@ -20,16 +21,32 @@ h6{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-bottom: 50px;
+}
+.collage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 form{
     padding: 10px;
-padding-left: 500px;
+
 }
-button{
-    color:black;
-    background-color: green;
+.tryit{
+    color:white;
+    background-color: #025157;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 15px;
+}
+.star{
+    color:white;
+    background-color: #3cc505;
     border-radius: 30px;
-    border-width: 5px;
+    border-width: 2px;
+    padding: 5px;
+    margin:0px;
 }
 .header {
 	margin: 0px;
@@ -92,6 +109,42 @@ ul {
 .publish{
     flex:1;
 }
-
-
-
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
+body{
+    margin-top: 285px;
+    text-align: center;
+}
+.try{
+    display: flex;
+    justify-content: center;
+}
+.features {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 330px);
+    background-color: #025157;
+    padding: 5% 10%;
+    }
+    .feature-card {
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #fff;
+        border: 1px solid #dadada;
+        border-radius: 10px;
+      }
